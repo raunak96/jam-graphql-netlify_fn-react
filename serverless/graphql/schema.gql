@@ -1,0 +1,10 @@
+type Query {
+	links: [Link!]!
+}
+
+type Link {
+	url: String!
+	description: String!
+	name: String!
+	archived: Boolean
+}
